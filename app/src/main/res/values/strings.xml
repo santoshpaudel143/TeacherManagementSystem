@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Teacher Management System</string>
+    <string name="welcome_title">Welcome To The Teacher Management System</string>
+    <string name="welcome_message">This Teacher Management System app allows you to manage your teacher in School/College in more efficient way.</string>
+    <string name="enter">Enter</string>
+    <string name="teacher_detail">Here you can ADD, UPDATE, VIEW and DELETE detail of Teacher</string>
+    <string name="teacher_delete">Provide a Id to <b>Delete</b> the Teacher Info</string>
+    <string name="add">ADD</string>
+    <string name="save">SAVE</string>
+    <string name="view">VIEW</string>
+    <string name="view_all">VIEW TEACHER</string>
+    <string name="view_by_id">VIEW TEACHER BY ID</string>
+    <string name="view_all_department">VIEW DEPARTMENT</string>
+    <string name="view_department_by_id">VIEW DEPART BY ID</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+    <string name="id">ID</string>
+    <string name="full_name">Full Name</string>
+    <string name="address">Address</string>
+    <string name="contact"> Contact</string>
+    <string name="email">Email</string>
+    <string name="status">Status</string>
+    <string name="department">Department</string>
+    <string name="subject">Program</string>
+    <string name="enroll_at">SALARY</string>
+    <string name="dob">AGE</string>
+    <string name="back">CANCEL</string>
+    <string name="update">UPDATE</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="user_name">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="retype_password">RETYPE PASSWORD</string>
+    <string name="logOut">LOGOUT</string>
+
+</resources>

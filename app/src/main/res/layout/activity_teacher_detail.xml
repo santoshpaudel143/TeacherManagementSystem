@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".TeacherDetail">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="402dp"
+        android:layout_height="95dp"
+        android:fontFamily="casual"
+        android:text="@string/teacher_detail"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout14"
+        android:layout_width="404dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="203dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="@color/save"
+            android:onClick="add"
+            android:text="@string/add"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/view"
+            android:layout_width="203dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="@color/view"
+            android:onClick="view"
+            android:text="@string/view"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="404dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout14">
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="203dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="@color/update"
+            android:onClick="edit"
+            android:text="@string/update"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="203dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="@color/delete"
+            android:onClick="delete"
+            android:text="@string/delete"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="404dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="491dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout13">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/cancel"
+            android:onClick="back"
+            android:background="@drawable/custom_button"
+            android:text="@string/logOut"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

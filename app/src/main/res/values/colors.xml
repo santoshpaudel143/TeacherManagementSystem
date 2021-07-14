@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="delete">#990000</color>
+    <color name="save">#4CAF50</color>
+    <color name="update">#A5AF4C</color>
+    <color name="view">#3D81CC</color>
+    <color name="login">#0745F9</color>
+    <color name="register">#172B67</color>
+    <color name="cancel">#E3403B</color>
+    <color name="view_all">#0398A5</color>
+    <color name="view_by_id">#5BDAF1</color>
+    <color name="background">#868888</color>
+
+    <!-- style="?android:attr/borderlessButtonStyle" -->
+</resources>
